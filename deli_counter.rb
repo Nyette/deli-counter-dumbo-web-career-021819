@@ -8,9 +8,9 @@ def line(katz_deli)
     katz_deli.each_with_index do | person, index |
       text += "#{index + 1}. #{person}"
     end
-    return text
+    puts text
   else
-    return "The line is currently empty."
+    puts "The line is currently empty."
   end
 end
 
